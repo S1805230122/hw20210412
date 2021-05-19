@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+.main {
+    height: 33px;
+    background-color: #e3e4e5;
+}
+.top{
+    float: right;
+    height: 35px;
+    margin-right: 163px;
+    font-size: 12px;
+    line-height: 33px;
+    color: #adadae;
+    
+}
+.main ul li{
+    float: left;
+    height: 35px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 16px;
+
+}
+
+.dh{
+    display: none;
+    margin-left: -10px;
+    width: 4px;
+    
+}
+.dh li{
+    display: block;
+    float: right;
+}
+.main .top li:hover{
+    background-color: white;
+    color: tomato;
+}
+.main .top li:hover ul{
+    display: block;
+}
+.top .dh li{
+    display: block;
+    z-index: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.zh{
+    left: 0;
+    width: 282px;
+    height: 163px;
+    background-color: white;
+}
+.jdlist{
+    width: 280px;
+    height: 92px;
+}
+.for1{
+    float: left;
+    width: 126px;
+}
+.for2{
+    float: left;
+    width: 126px;
+}
+.tp{
+    width: 1440px;
+    height: 194px;
+    margin-left: 130px;
+    margin-top: -10px;
+    background: url(../images/jd.png) no-repeat center;
+}
