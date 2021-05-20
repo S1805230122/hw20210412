@@ -1,77 +1,135 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-li{
-    list-style: none;
-}
-.main {
-    height: 33px;
+.w {
+    height: 30px;
+    line-height: 30px;
     background-color: #e3e4e5;
 }
-.top{
-    float: right;
-    height: 35px;
-    margin-right: 163px;
-    font-size: 12px;
-    line-height: 33px;
-    color: #adadae;
-    
+
+.w div {
+    width: 718px;
+    margin: auto;
+    line-height: 27px;
 }
-.main ul li{
+
+.fr {
+    display: block;
+}
+
+.fr .dt0 {
+    width: 128px;
     float: left;
-    height: 35px;
-    margin-right: 10px;
-    padding-left: 10px;
-    padding-right: 16px;
-
+    text-align: center;
 }
 
-.dh{
+.fr .dt1 {
+    width: 77px;
+    float: left;
+    text-align: center;
+    position: relative;
+}
+.fr .dt2 {
+    width: 77px;
+    float: left;
+    text-align: center;
+}
+
+.fr .dt {
+    width: 62px;
+    float: left;
+    text-align: center;
+}
+
+.iconfont {
+    border: solid #999;
+    border-width: 0 1.5px 1.5px 0;
+    display: inline-block;
+    padding: 2px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    margin-left: 8px;
+    margin-bottom: 2px;
+}
+
+a:hover {
+    color: #e33333;
+}
+
+.red {
+    color: #f10215;
+}
+
+a {
+    color: #999;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.spacer {
+    float: left;
+    overflow: hidden;
+    margin: 11px 5px 0;
+    width: 1px;
+    height: 10px;
+    background-color: #ccc;
+}
+.一级菜单{
+    position: relative;
+}
+.一级菜单 .dt1 ul{
     display: none;
-    margin-left: -10px;
-    width: 4px;
-    
-}
-.dh li{
-    display: block;
-    float: right;
-}
-.main .top li:hover{
-    background-color: white;
-    color: tomato;
-}
-.main .top li:hover ul{
-    display: block;
-}
-.top .dh li{
-    display: block;
-    z-index: 100px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-.zh{
-    left: 0;
+    position: absolute;
+    background-color: #fff;
     width: 282px;
     height: 163px;
+}
+.一级菜单 .dt1 ul li{
+    font-size: 12px;
+    color: #999;
+}
+.dt1:hover{
     background-color: white;
 }
-.jdlist{
-    width: 280px;
-    height: 92px;
+.cd:hover{
+    color: white;
+    background-color: white;
 }
-.for1{
+.fr .一级菜单:hover  ul{
+display: block;
+}
+.二级菜单 .left{
     float: left;
-    width: 126px;
+    width: 136px;
+    text-align: left;
+    padding-left: 8px;
+    
+    border: 1px solid;
+    border-color:rgba(153,153,153, 0.3) ;
+    border-top:none ;
+    border-left:none ;
+    border-right:none ;
+    padding-bottom:14px;
 }
-.for2{
-    float: left;
-    width: 126px;
+
+.二级菜单 .right{
+    float: right;
+    width: 138px;
+    text-align: left;
+    border: 1px solid;
+    border-top:none ;
+    border-left:none ;
+    border-right:none ;
+    padding-bottom:14px;
+    border-color:rgba(153,153,153, 0.3) ;
 }
-.tp{
-    width: 1440px;
-    height: 194px;
-    margin-left: 130px;
-    margin-top: -10px;
-    background: url(../images/jd.png) no-repeat center;
+.二级菜单 .A{
+    background-color: #fff;
+    width: 282px;
+    height: 163px;
+    box-shadow:0px  0px px#000;
+    border:1px solid ;
+    border-color:rgba(153,153, 153, 0.5) ;
+    border-top:none;
+    box-shadow: 1px 2px 1px rgb(0 0 0 / 10%);
+}
+.二级菜单 .A li:hover{
+    color: #e33333;
 }
